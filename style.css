@@ -1,0 +1,74 @@
+.container-1 {
+background-color: #b6224f;
+text-align: center;
+}
+.container-2 {
+    background-color: #068340;
+    text-align: center;
+ }
+.container-3 {
+    background-color: #f6be25;
+    text-align: center;
+ }
+ .container-4 {
+    background-color: #0ca79f;
+    text-align: center;
+}
+.container-5 {
+    background-color: #eeaf57;
+    text-align: center;
+}  
+.container-6 {
+    background-color: #ffa321;
+    text-align: center;
+}
+.order-btn{
+    margin-top: 10px;
+    border-color: #fff;
+    padding: 2%;
+}
+
+  
+@media screen and (max-width: 765px) {
+  .footer-menu {
+    display: block;
+  }
+
+  .footer-column {
+    width: 100%; 
+    margin-bottom: 1rem; 
+  }
+
+  .footer-column h3 {
+    cursor: pointer;
+    width: 100%; 
+  }
+
+  .footer-column .collapse {
+    display: none; 
+  }
+
+  .footer-column .collapse.show {
+    display: block; 
+  }
+}
+
+/* Media Query for screens larger than 728px */
+@media screen and (min-width: 765px) {
+  .footer-menu {
+    display: flex; 
+  }
+
+  .footer-column {
+    width: auto; 
+    margin-bottom: 0; 
+  }
+
+  .footer-column .collapse {
+    display: block !important; 
+  }
+
+  .footer-column h3 {
+    cursor: default;
+  }
+}
